@@ -1,0 +1,103 @@
+
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    width: 80%;
+}
+
+#connections {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #333;
+}
+
+#chat {
+    flex: 4;
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    min-width: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#connectButton {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#sendButton {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#chatText {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.chat-container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.chat-container-right {
+    justify-content: flex-end;
+}
+
+.chat-container-left {
+    justify-content: flex-start;
+}
+
+.chat-text {
+    color: #ccc;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.chat-text-right {
+    background-color: #000;
+}  
+
+.chat-text-left {
+    background-color: #007bff;
+}

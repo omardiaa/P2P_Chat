@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat</title>
+    <link rel="stylesheet" type="text/css" href="chat.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="connections">
+            <div class="title">Connections</div>
+            <div class="input-container">
+                <input type="text" id="usernameInput" placeholder="Peer's username">
+                <button id="connectButton">Connect</button>
+            </div>
+        </div>
+        <div id="chat">
+            <div class="title">Chat</div>
+            <p id="chatText"></p>
+            <div class="input-container">
+                <input type="text" id="messageInput" placeholder="Write your message here" disabled>
+                <button id="sendButton">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+</html>
