@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Authentication Example</title>
+</head>
+<body>
+    <h1>Authentication Example</h1>
+
+    <script>
+        // Check if a token is present in local storage
+        const token = localStorage.getItem('token');
+
+        if (token) {
+            // Token is present, load one page
+            window.location.href = 'Chat/chat.html';
+        } else {
+            // Token is not present, load another page
+            window.location.href = 'Login/login.html';
+        }
+    </script>
+</body>
+</html>
